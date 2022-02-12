@@ -1,0 +1,24 @@
+.dropdown {
+   width: 100%;
+   position: absolute;
+   top: 120%;
+   left: 0;
+   background-color: #1572a1;
+   padding: 10% 0%;
+   border-radius: 4px;
+   z-index: 1;
+}
+
+.dropdown_content {
+   width: 100%;
+   position: relative;
+   list-style-type: none;
+}
+
+.dropdown_content_item {
+   padding: 4% 6%;
+}
+
+.dropdown_content_item:hover {
+   background-color: #ff6363;
+}

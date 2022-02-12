@@ -1,0 +1,18 @@
+.file_uploader {
+   background-color: #325288;
+   /* border-radius: 4px; */
+}
+
+.file_uploader input {
+   display: none;
+}
+
+.file_uploader span {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   padding: 10px 5px;
+   cursor: pointer;
+}

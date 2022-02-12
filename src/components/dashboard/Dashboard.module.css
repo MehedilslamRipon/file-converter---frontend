@@ -1,0 +1,206 @@
+.welcome {
+   width: 100%;
+   background-color: #219f94;
+   margin: auto;
+}
+
+.welcome_content {
+   width: 90%;
+   display: flex;
+   align-items: center;
+   margin: auto;
+   padding: 7% 0%;
+}
+
+.welcome_content > * {
+   width: 50%;
+}
+
+.welcome_text_container,
+.select_file_types_container {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.welcome_text {
+   width: 80%;
+}
+
+.select_file_types {
+   width: 80%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #219f94;
+   color: white;
+   padding: 1%;
+   border-radius: 4px;
+}
+
+.select_conversion_file_type,
+.select_target_file_type {
+   position: relative;
+   width: 40%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1% 3%;
+   border: 1px solid rgba(255, 255, 255, 0.377);
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+/* Section Convert */
+.convert {
+   width: 100%;
+   padding: 2% 5%;
+   background-color: #219f94;
+}
+
+.uploaded_filename_progress {
+   min-width: 70%;
+   background-color: #fdeff4;
+   display: flex;
+   align-items: center;
+   margin: auto;
+   border-radius: 4px;
+   box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+}
+
+.uploaded_filename_progress > * {
+   height: 40px;
+   padding: 0.5% 2%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.filename {
+   width: 40%;
+   justify-content: flex-start;
+}
+
+.convert_to {
+   width: 20%;
+}
+
+.progress {
+   width: 30%;
+   justify-content: flex-start;
+}
+
+.waiting_to_upload {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.close_button {
+   width: 10%;
+   padding: 0 1%;
+   justify-content: flex-end;
+}
+
+.convert_downlaod_button {
+   min-width: 90%;
+   text-align: center;
+   padding: 2% 0%;
+}
+
+/* Section Services */
+.services {
+   width: 100%;
+   background-color: #54bab828;
+}
+
+.services_content {
+   width: 90%;
+   display: flex;
+   flex-wrap: wrap;
+   margin: auto;
+   padding: 1% 0%;
+}
+
+.service_card {
+   width: 25%;
+   text-align: center;
+   border: 0.2px solid rgba(0, 0, 0, 0.04);
+   padding: 30px 10px;
+}
+
+@media (max-width: 800px) {
+   .welcome_content {
+      width: 100%;
+      display: block;
+      padding: 5% 2%;
+   }
+
+   .welcome_content > * {
+      width: 100%;
+   }
+
+   .welcome_text_container {
+      margin-bottom: 50px;
+   }
+
+   .welcome_text {
+      width: 100%;
+   }
+
+   .select_file_types {
+      width: 100%;
+   }
+
+   .select_conversion_file_type,
+   .select_target_file_type {
+      width: 35%;
+   }
+
+   .convert {
+      padding: 10% 5%;
+   }
+
+   .uploaded_filename_progress {
+      width: 100%;
+      display: block;
+   }
+
+   .uploaded_filename_progress > * {
+      width: 100%;
+      /* display: block; */
+      margin-bottom: 20px;
+   }
+
+   .filename {
+      justify-content: center;
+   }
+
+   .convert_to {
+      width: 100%;
+      justify-content: center;
+      /* display: flex; */
+      /* background-color: gray; */
+   }
+
+   .close_button {
+      width: 100%;
+      justify-content: center;
+   }
+
+   .services {
+      padding: 4% 1%;
+   }
+
+   .service_card {
+      width: 100%;
+   }
+}
+
+@media ((min-width: 800px) and (max-width: 1200px)) {
+   .service_card {
+      width: 50%;
+   }
+}
