@@ -34,7 +34,7 @@ function Navbar() {
                <Link to="/">About</Link>
                <Link to="/">Contact Us</Link>
             </div>
-            <div
+            {/* <div
                className={styles.navbar_login_signup}
                style={{
                   display:
@@ -43,7 +43,7 @@ function Navbar() {
             >
                <Link to="/">Signup</Link>
                <Link to="/">Login</Link>
-            </div>
+            </div> */}
          </div>
       </nav>
    );

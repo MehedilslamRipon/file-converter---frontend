@@ -12,7 +12,7 @@ function FileUploader({ fileHandler, style }) {
          <form>
             <input type="file" ref={inputFile} onChange={fileHandler} />
             <span to="" onClick={clickInputFile}>
-               Upload File
+               Select file
             </span>
          </form>
       </div>
