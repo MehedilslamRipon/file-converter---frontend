@@ -403,7 +403,7 @@ function Dashboard() {
                   style={{
                      width: '100%',
                      margin: '0',
-                     padding: '10px 0px 5px 0px',
+                     padding: '40px 0px 15px 0px',
                   }}
                />
                <Paragraph
